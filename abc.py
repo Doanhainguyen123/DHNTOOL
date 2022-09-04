@@ -77,7 +77,7 @@ class Home:
 				try:
 					url = str(input(f"{Color.LG} ♫ Url: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} ♫ Time: "+Color.RESET))
-					VDH_TOOL.styleText(" ĐỢI TOOL CHẠY NHA CU\n")
+					DHN_TOOL.styleText(" ĐỢI TOOL CHẠY NHA CU\n")
 					for i in range(150):
 						print (f"{Color.LG}Starting Attack To ➠ {Color.LG}" + url)
 						print (f"{Color.LR}Starting Attack To ➠ {Color.LR}" + url)
@@ -159,7 +159,7 @@ def main():
 	for pkg in pkgs:
 		ur_mom = which(pkg)
 		if ur_mom == None:
-			VDH_TOOL.styleText(f"❌ {pkg} Chưa Cài Đặt?\n")
+			DHN_TOOL.styleText(f"❌ {pkg} Chưa Cài Đặt?\n")
 			install = False
 		else:
 			pass
